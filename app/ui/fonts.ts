@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {Inter} from 'next/font/google'
 import { Lusitana } from 'next/font/google'
 export const lusitana = Lusitana({
@@ -9,16 +8,4 @@ export const lusitana = Lusitana({
 export const inter = Inter({
     subsets: ['latin'],
     variable: '--font-inter'
-=======
-import {Inter} from 'next/font/google'
-import { Lusitana } from 'next/font/google'
-export const lusitana = Lusitana({
-    subsets: ['latin'],
-    weight: ['400', '700'],
-    variable: '--font-lusitana'
-})
-export const inter = Inter({
-    subsets: ['latin'],
-    variable: '--font-inter'
->>>>>>> 3169f7b (second commit)
 })
